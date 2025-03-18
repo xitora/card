@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export", // 정적 파일을 내보내도록 설정
   eslint: {
     ignoreDuringBuilds: true,
   },
