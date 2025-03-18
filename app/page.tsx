@@ -2,7 +2,7 @@ import type React from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Github, Instagram, Mail, Globe, ExternalLink } from "lucide-react"
+import { Github, Instagram, Mail, Globe, ExternalLink, Sigma, LayoutList } from "lucide-react"
 import { XLogo } from "@/components/x-logo"
 
 export default function LinkTree() {
