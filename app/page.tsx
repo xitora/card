@@ -66,7 +66,7 @@ export default function LinkTree() {
               href="mailto:contact@xitora.cc"
               icon={<Mail size={18} />}
               label="이메일"
-              description="비즈니스 관련 문의 및 운영중인 사이트에 대한 질문은 이곳에서"
+              description="비즈니스 관련 문의 및 운영중인 사이트에 대한 질문"
             />
           </div>
 
