@@ -15,8 +15,8 @@ export default function LinkTree() {
               <Image src="/profile.jpeg" alt="Profile" width={96} height={96} className="object-cover" priority />
             </div>
             <h1 className="mt-4 text-2xl font-bold text-text-primary">xitora</h1>
-            <p className="text-center text-text-secondary">디자이너</p>
-            <p className="mt-2 text-center text-sm text-text-secondary">아름다운 것들을 만듭니다.</p>
+            <p className="text-center text-text-secondary">리듬우락스레기</p>
+            <p className="mt-2 text-center text-sm text-text-secondary">츄니마이 합니다!</p>
           </div>
 
           <div className="flex flex-col gap-3 p-6 pt-0">
@@ -24,28 +24,42 @@ export default function LinkTree() {
               href="https://github.com/xitora"
               icon={<Github size={18} />}
               label="깃허브"
-              description="아직은 모든 repo가 비공개입니다.."
+              description="대부분의 repo가 비공개로 전환됨"
             />
 
             <LinkButton
-              href="https://twitter.com/xit0ra"
+              href="https://x.com/xit0ra"
               icon={<XLogo size={18} />}
               label="X"
-              description="저의 일상을 간단한 글로 공유합니다."
+              description="간단한 글로 일상을 공유"
             />
 
             <LinkButton
               href="https://instagram.com/xit0ra"
               icon={<Instagram size={18} />}
               label="인스타그램"
-              description="저의 일상을 사진과 영상으로 공유합니다."
+              description="사진과 영상으로 일상을 공유"
+            />
+
+            <LinkButton
+              href="http://blog.xitora.cc"
+              icon={<LayoutList size={18} />}
+              label="블로그"
+              description="잘 안씁니다."
             />
 
             <LinkButton
               href="https://xitora.cc"
               icon={<Globe size={18} />}
               label="개인 페이지"
-              description="개발 중에 있습니다."
+              description="개발 중"
+            />
+
+            <LinkButton
+              href="https://chuni.xitora.cc"
+              icon={<Sigma size={18} />}
+              label="츄니토라"
+              description="(개발 중) 츄니즘 데이터 시각화 페이지"
             />
 
             <LinkButton
