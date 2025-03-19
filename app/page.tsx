@@ -24,21 +24,21 @@ export default function LinkTree() {
               href="https://github.com/xitora"
               icon={<Github size={18} />}
               label="깃허브"
-              description="깃허브 프로필필"
+              description="깃허브 프로필"
             />
 
             <LinkButton
               href="https://x.com/xit0ra"
               icon={<XLogo size={18} />}
               label="X"
-              description="리듬게임 관련 성과 및 잡담담"
+              description="리듬게임 관련 성과 및 잡담"
             />
 
             <LinkButton
               href="https://instagram.com/xit0ra"
               icon={<Instagram size={18} />}
               label="인스타그램"
-              description="거의 사용하지 않음음"
+              description="거의 사용하지 않음"
             />
 
             <LinkButton
@@ -59,7 +59,7 @@ export default function LinkTree() {
               href="https://chuni.xitora.cc"
               icon={<Sigma size={18} />}
               label="츄니토라"
-              description="(개발 중) 츄니즘 데이터 시각화 프로젝트트"
+              description="(개발 중) 츄니즘 데이터 시각화 프로젝트"
             />
 
             <LinkButton
