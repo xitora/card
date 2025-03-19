@@ -24,49 +24,49 @@ export default function LinkTree() {
               href="https://github.com/xitora"
               icon={<Github size={18} />}
               label="깃허브"
-              description="대부분의 repo가 비공개로 전환됨"
+              description="깃허브 프로필필"
             />
 
             <LinkButton
               href="https://x.com/xit0ra"
               icon={<XLogo size={18} />}
               label="X"
-              description="간단한 글로 일상을 공유"
+              description="리듬게임 관련 성과 및 잡담담"
             />
 
             <LinkButton
               href="https://instagram.com/xit0ra"
               icon={<Instagram size={18} />}
               label="인스타그램"
-              description="사진과 영상으로 일상을 공유"
+              description="거의 사용하지 않음음"
             />
 
             <LinkButton
               href="http://blog.xitora.cc"
               icon={<LayoutList size={18} />}
               label="블로그"
-              description="잘 안씁니다."
+              description="티스토리 블로그"
             />
 
             <LinkButton
               href="https://xitora.cc"
               icon={<Globe size={18} />}
               label="개인 페이지"
-              description="개발 중"
+              description="(개발 중)"
             />
 
             <LinkButton
               href="https://chuni.xitora.cc"
               icon={<Sigma size={18} />}
               label="츄니토라"
-              description="(개발 중) 츄니즘 데이터 시각화 페이지"
+              description="(개발 중) 츄니즘 데이터 시각화 프로젝트트"
             />
 
             <LinkButton
               href="mailto:contact@xitora.cc"
               icon={<Mail size={18} />}
               label="이메일"
-              description="비즈니스 관련 문의 및 운영중인 사이트에 대한 질문"
+              description="비즈니스 관련 문의"
             />
           </div>
 
