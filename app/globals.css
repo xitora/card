@@ -87,33 +87,3 @@
 body {
   background-color: #10182b;
 }
-
-/* 회전하는 그라데이션 테두리 애니메이션 */
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.rotating-border {
-  position: relative;
-  border-radius: 12px;
-}
-
-.rotating-border::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  z-index: -1;
-  background: linear-gradient(90deg, #2200ff, #8000ff, #2200ff, #8000ff);
-  border-radius: 16px;
-  background-size: 400% 400%;
-  animation: spin 4s linear infinite;
-}
-
