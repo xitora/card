@@ -24,8 +24,8 @@ export default function LinkTree() {
               <Image src="/profile.jpeg" alt="Profile" width={96} height={96} className="object-cover" priority />
             </div>
             <h1 className="mt-4 text-2xl font-bold text-text-primary">xitora</h1>
-            <p className="text-center text-text-secondary">리듬우락스레기</p>
-            <p className="mt-2 text-center text-sm text-text-secondary">츄니마이 합니다!</p>
+            <p className="text-center text-text-secondary">리듬게임 플레이어</p>
+            <p className="mt-2 text-center text-sm text-text-secondary">상구에서 츄니마이 합니다</p>
           </div>
 
           <div className="grid grid-cols-2 gap-3 p-6 pt-0">
